@@ -8,6 +8,7 @@ import { ref, onUnmounted, computed } from 'vue'
 firebase.initializeApp({
   apiKey: "AIzaSyCbkFu0200cPrrtdVS0SuhKkkNGWR6UPKQ",
   authDomain: "tsuka-chat.firebaseapp.com",
+  databaseURL: "https://tsuka-chat-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "tsuka-chat",
   storageBucket: "tsuka-chat.appspot.com",
   messagingSenderId: "703348102198",
